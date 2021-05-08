@@ -1,0 +1,157 @@
+* {
+    text-transform: capitalize;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: rgb(33, 99, 175);
+    --secoundary-color: #fff;
+    --third-color: rgb(255, 230, 92);
+}
+
+p {
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+div,
+img {
+    width: 100%;
+}
+
+h1:not(.h1) {
+    color: var(--primary-color);
+}
+
+footer,
+.conact,
+.about,
+.showcase,
+.gallery {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.content {
+    display: flex;
+}
+
+.aside {
+    padding-left: 10%;
+    display: inline-flex;
+    width: 30%;
+    background-color: var(--primary-color);
+    padding-top: 3%;
+    color: var(--secoundary-color);
+    line-height: 70px;
+    font-size: 23px;
+    height: 1200px;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    padding-left: 8%;
+}
+
+.ul-neaty {
+    list-style: none;
+}
+
+.ul-neaty li a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: var(--secoundary-color);
+    padding-left: -90%;
+}
+
+.ul-neaty li a:hover {
+    color: var(--third-color)
+}
+
+.main {
+    width: 70%;
+    position: relative;
+    margin-left: 30%;
+}
+
+.showcase h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.showcase p {
+    padding-right: 20px;
+}
+
+.about {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.about-img {
+    margin-right: 25px;
+    width: 30%;
+}
+
+.about-1 {
+    width: 70%;
+}
+
+.about-1 a,
+.conact a {
+    background-color: var(--primary-color);
+    color: var(--secoundary-color);
+    font-size: 25px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.about-1 a {
+    padding: 20px 100px;
+}
+
+.about-1 p {
+    padding-bottom: 50px;
+}
+
+.gallery img {
+    width: 200px;
+}
+
+.gallery div {
+    margin-top: 40px;
+}
+
+.conact {
+    display: flex;
+}
+
+.conact form input,
+textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.conact form input {
+    height: 40px;
+}
+
+.conact form textarea {
+    height: 100px;
+}
+
+.conact a {
+    padding: 10px 80px;
+}
+
+footer h6 {
+    font-weight: lighter;
+}
